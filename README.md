@@ -1,6 +1,24 @@
 # example-microservice
 Example Microservice
 
+##Description
+
+1. A simple micro service with REST API’s to perform CRUD operation on user details using
+In-memory database i.e h2 
+Note :  Insert 2 users in h2 db during the start-up to perform the above operations
+
+2. Validation of the incoming request to validate the user id is only numeric.
+
+3. Entry/exit logging for the project
+
+4. Perform Basic User authentication and authorization for these end points.
+
+5. Role based access
+Eg: Admin user can perform read/write operations.
+    Non-admin user has read only access.
+
+
+
 #### Basic Authentication Credentials
 |Username   | Password  | Role  | Method  |
 |---|---|---|---|
