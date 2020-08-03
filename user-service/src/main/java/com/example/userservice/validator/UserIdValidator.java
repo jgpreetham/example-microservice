@@ -11,7 +11,7 @@ public class UserIdValidator implements ConstraintValidator<UserIdNumeric, Strin
 		if (value.matches("[0-9]+")) {
 			return true;
 		}
-		throw new ValidationException("User Id can't be "+ value +" .The User Id can be numeric.");
+		throw new ValidationException("User Id can't be "+ value +" .The User Id should be numeric.");
 	}
 
 }
