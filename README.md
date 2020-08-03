@@ -5,7 +5,6 @@ Example Microservice
 
 1. A simple micro service with REST API’s to perform CRUD operation on user details using
 In-memory database i.e h2 
-Note :  Insert 2 users in h2 db during the start-up to perform the above operations
 
 2. Validation of the incoming request to validate the user id is only numeric.
 
@@ -16,6 +15,8 @@ Note :  Insert 2 users in h2 db during the start-up to perform the above operati
 5. Role based access
 Eg: Admin user can perform read/write operations.
     Non-admin user has read only access.
+    
+6. Insertion of 2 users in h2 db during the start-up
 
 
 
